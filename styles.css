@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@600&display=swap');
+
+*{
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: square;
+    font-family: 'Zilla Slab', serif;
+
+
+}
+body {
+    background: #808686;
+    font-size: 18px;
+    list-style: 20px;
+    color: solid black;
+}
+
+.bold {
+    font-weight: 800;
+    font-size: 2rem;
+    text-transform: none;
+}
+
+.column {
+    float: right;
+    width: 50%;
+    padding: 15px;
+    clear: both;
+
+.semi-bold {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.curriculum {
+width: 1000px;
+height: auto;
+display:flex;
+margin: 50px auto;
+}
+
+.curriculum .curriculum_right {
+width: 300px;
+background: snow;
+offset-distance: 20px;
+}
+
+.curriculum .curriculum_right .curriculum_vitae_content {
+    width: 100%;
+    height: 300px;
+    padding: 0 30px;
+}
+
+.curriculum .title {
+    margin-bottom: 20px;
+}
+
+.curriculum .curriculum_vitae_content {
+    padding: 30px 0;
+    border-bottom: 0.5px solid #51c4d3;
+
+}
+
+.curriculum .curriculum_right .curriculum_vitae_content:last-child,
+.curriculum .curriculum_left .curriculum_vitae_content:last-child {
+    border-bottom: 0px;
+}
+
+.curriculum .curriculum_right ul li { 
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+
+}
+
+.curriculum_.curriculum_right ul:last-child {
+    margin-bottom: 0;
+}
+
+.curriculum .curriculum_left ul li .icon {
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    color: #0bb5f4;
+    border-radius: 50%;
+    margin-right: 15px;
+    font-size: 1rem;
+    position: relative;
+}
+
+.curriculum .curriculum_right .cv_skills ul li .skills span {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    height: 100%;
+    background: #fff;
+
+}
+
+.curriculum .curriculum_left .cv_social .semi-bold {
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.curriculum .curriculum_right {
+    width: 520px;
+    background: #fff;
+    padding: 25px;
+}
+
+.curriculum .curriculum_right .bold {
+    color: #0bb5f4;
+}
+
+.curriculum .curriculum_right .curriculum_work ul,
+.curriculum .curriculum_right .curriculum_education ul {
+    padding-left: 40px;
+    overflow: hidden;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+.curriculum .curriculum_right ul li {
+    position: relative;
+}
+
+.curriculum .curriculum_right ul li .date {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa-facebook:hover { 
+      opacity: 0.7;
+    }
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
